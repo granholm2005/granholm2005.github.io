@@ -1,18 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap');
+
+
 * {
-  margin:0px;
-  padding:0px;
+  box-sizing: border-box;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  height:384px;
-  margin: 50px auto;
+body {
+  background-color: rgb(9, 2, 34);
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+header {
+  font-family: 'Signika', sans-serif;
+  color: slategray;
+  font-weight: 700;
+  font-size: 64px;
+  margin-left: 35%;
+  margin-right: 35%;
+  line-height: 0.9em;
+  padding-top: 10px;
+}
+
+header .divider {
+  border-top: 1px solid slategray;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-top: 20px;
+ 
 }
